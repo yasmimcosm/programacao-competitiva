@@ -1,0 +1,95 @@
+
+## 🏷️ Tipos mais usados
+
+### ⚡ Principais
+
+* `[feat]` → nova funcionalidade
+  👉 nova solução, novo algoritmo
+* `[fix]` → correção
+  👉 bug no código ou erro na lógica
+* `[docs]` → documentação
+  👉 README, comentários
+* `[refactor]` → melhoria sem mudar resultado
+  👉 código mais limpo
+* `[test]` → testes
+* `[chore]` → coisas gerais (config, organização)
+
+---
+
+## 💻 Adaptado pra programação competitiva 
+
+
+### 🧩 Problemas
+
+```bash
+[solve] resolve problema X
+[solve] beecrowd 1001
+[solve] codeforces A - Theatre Square
+```
+
+---
+
+### 🧠 Estudos
+
+```bash
+[study] estudando ponteiros
+[study] introdução a STL
+[study] recursão básica
+```
+
+---
+
+### 🛠️ Melhorias
+
+```bash
+[refactor] melhora solução do problema X
+[opt] otimiza algoritmo O(n^2) -> O(n)
+```
+
+---
+
+### 🐞 Correções
+
+```bash
+[fix] corrige erro de overflow
+[fix] bug em condição de parada
+```
+
+---
+
+### 📁 Organização
+
+```bash
+[chore] organiza pastas
+[chore] adiciona estrutura inicial
+```
+
+---
+
+### 📚 README e docs
+
+```bash
+[docs] adiciona README
+[docs] atualiza instruções de execução
+```
+
+---
+
+## 🔥 Exemplos reais
+
+```bash
+[solve] beecrowd 1002 - área do círculo
+[study] vetores e arrays
+[opt] reduz complexidade da busca
+[fix] corrige erro de índice fora do limite
+[refactor] melhora legibilidade do código
+```
+
+---
+
+```bash
+[solve][beecrowd] 1001
+[study][stl] vector e map
+[fix][bug] loop infinito
+```
+
