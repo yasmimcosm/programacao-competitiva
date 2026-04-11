@@ -1,9 +1,5 @@
 # 💻 Programação Competitiva & Estudos em C++
 
-Repositório dedicado aos meus estudos em C++ e à prática de programação competitiva 🚀
-
-## 📚 Sobre
-
 Aqui eu organizo:
 
 * 🧠 Resolução de problemas (juízes online, listas, etc.)
