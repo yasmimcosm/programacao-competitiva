@@ -1,0 +1,4 @@
+
+O transform é uma função da STL que aplica uma função em vários elementos de uma vez.
+## transform(inicio, fim, destino, funcao);
+ex: transform(a.begin(), a.end(), a.begin(), ::tolower);
