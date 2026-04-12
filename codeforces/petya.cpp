@@ -15,8 +15,8 @@ int main () {
     }
 
     //para substituir o for, eu poderia ter usado:
-    //transform(w1.begin(), w1.end(), w1.begin(), ::tolower);
-    //transform(w2.begin(), w2.end(), w2.begin(), ::tolower);
+    //transform(w1.begin(), w1.end(), w1.begin(), ::tolower)
+    //transform(w2.begin(), w2.end(), w2.begin(), ::tolower)
 
     cout << (w1 < w2 ? -1 : w1 > w2 ? 1 : 0);
 
