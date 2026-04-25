@@ -21,3 +21,26 @@ int main () {
 
     return 0;
 }
+
+/*
+#include <iostream>  
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    int D; cin >> D;
+    double resultado[D], A[D], B[D], soma = 0;
+
+    for (int i =  0; i < D ; i++){
+        cin >> A[i] >> B[i]; 
+        resultado[i] = B[i] - A[i]; 
+        resultado[i] = pow(resultado[i], 2); // Elevo o resultado ao ²
+        soma += resultado[i]; 
+    }   
+    soma = sqrt(soma);
+    cout << fixed << setprecision(15) << soma << endl;
+ 
+    return 0;
+}
+*/
