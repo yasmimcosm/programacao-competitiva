@@ -93,3 +93,105 @@
 [fix][bug] loop infinito
 ```
 
+
+# 🌐 Etiquetas para desenvolvimento de sites
+
+## ⚡ Funcionalidades
+
+```bash 
+[feat] adiciona sistema de login
+[feat] cria página inicial
+[feat] adiciona carrinho de compras
+[feat] implementa busca de restaurantes
+```
+
+---
+
+## 🎨 UI / Design
+
+```bash
+[ui] melhora layout da navbar
+[ui] cria cards responsivos
+[ui] adiciona animação nos botões
+[style] ajusta paleta de cores
+[style] melhora tipografia
+```
+
+---
+
+## 📱 Responsividade
+
+```bash
+[responsive] adapta homepage para mobile
+[responsive] corrige layout no tablet
+```
+
+---
+
+## 🐞 Correções
+
+```bash 
+[fix] corrige bug no login
+[fix] ajusta alinhamento do botão
+[fix] corrige overflow no mobile
+```
+
+---
+
+## ⚙️ Backend / Integração
+
+```bash 
+[api] integra API de restaurantes
+[api] adiciona autenticação JWT
+[db] cria tabela de usuários
+```
+
+---
+
+## 🚀 Performance
+
+```bash 
+[perf] otimiza carregamento das imagens
+[perf] reduz tempo de renderização
+```
+
+---
+
+## ♻️ Refatoração
+
+```bash 
+[refactor] reorganiza componentes
+[refactor] limpa CSS da homepage
+```
+
+---
+
+## 🧪 Testes
+
+```bash 
+[test] adiciona testes do login
+[test] testa responsividade da navbar
+```
+
+---
+
+## 📚 Documentação
+
+```bash
+[docs] atualiza README
+[docs] documenta estrutura do projeto
+```
+
+---
+
+# 💎 EXTRA — etiquetas MUITO boas pra front-end
+
+```bash 
+[anim] adiciona hover animation
+[a11y] melhora acessibilidade
+[seo] otimiza meta tags
+[darkmode] adiciona tema escuro
+```
+
+---
+
