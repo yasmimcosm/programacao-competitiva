@@ -9,16 +9,14 @@ signed main() {
     op
 
     int n; cin >> n;
-    vector<int> v;
+    set<int> v;
 
     for(int i=0; i < n; i++){
         int x; cin >> x;
-        v.push_back(x);
+        v.insert(x);
     }
 
-    sort(v.begin(), v.end());
-    v.erase(unique(v.begin(), v.end()), v.end());
-
+    
     cout << v.size() << endl;
     
 }
