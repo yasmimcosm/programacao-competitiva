@@ -8,11 +8,11 @@ using namespace std;
 
 signed main() {
     op
-    int t, operacoes=0, diferenca=0;
+    int t, operacoes=0;
     cin >> t;
 
     while(t--){
-        int n, umA = 0, umB = 0;
+        int n, umA = 0, umB = 0, errado = 0;
         cin >> n;
         int a, b;
         vector<int> filaA;
@@ -20,31 +20,33 @@ signed main() {
 
         for(int i =0; i <n; i++){
             cin >> a;
-            if(a == 1){
-                umA++;
-            }
             filaA.push_back(a);
         }
 
         for(int i=0; i <n; i++){
             cin >> b;
-            if(b == 1){
-                umB++;
-            }
             filaB.push_back(b);
         }
 
-        for(int i=0; i <n; i++){
+        for(int i=0; i<n; i++){
             if(filaA[i] != filaB[i]){
-                diferenca++;
+                errado++;
+                if(filaA[i] == 1){
+                    umA++;
+                }
+                if(filaB[i] == 1){
+                    umB++;
+                }
             }
         }
 
-        if(filaA == filaB){
-            cout << 0 << endl;
-        } else if(umA == umB || diferenca == 1 || n ==1 || umA == 1 || umB == 1){
+        if (errado == 1){
             cout << 1 << endl;
-        } else {
+        } else if(umA == 0){
+            cout << umB << endl;
+        } else if(umB == 0){
+            cout << umA << endl;
+        }else {
             operacoes = abs(umA - umB) + 1;
             cout << operacoes << endl;
         }
